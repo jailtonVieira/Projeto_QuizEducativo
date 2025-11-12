@@ -29,5 +29,27 @@ O sistema deve ser executável em qualquer ambiente com Python instalado (Window
 ### Manutenibilidade
 O código deve ser modular, separado em classes.
 
+## REVIEW
+No processo de planejamento e criação tive algumas dificuldades em relação a organização e implementação do código, sendo falta de organização e criatividade. mas que pode resolver enquanto planejava, mas ainda com certas dificuldades  em algumas áreas.
+Sobre o futuro do projeto, estou pensando em adicionar duas listas de perguntas sendo elas de ciências da natureza com matemática  e ciências sociais e português, para o usuário escolher qual achar mais agradável. E já iremos começar a planejar como fazer o cadastro do jogador para a implementação.
+
+## ESTRUTURA DE DADOS
+Estamos usando varis estrututa para auxiliar no processo sendo:
+- Tipos primitivos.
+- variaveis.
+- classes.
+- funções.
+- listas.
+- dicionarios.
+- bibliotecas.
+- try & except.
+
+## EXPLICAÇÃO DO CODIGO
+A primrira funçãao leva o usuario ao menu onde ele tem tres opções sendo:
+- iniciar quiz
+- mostar pontos
+- sair
+Depois dessa escolha o menu leva o usuario para a proxima eatpa, caso o usuario escolha a primreira opção ele sera levado ao quiz, onde mostra as as perguntas e alternativas de forma aleatoria. e depois conferido a resposta que o usuario devolver e soamndo a sua pontuação
+
 ## papeis do projrto:
 SCRUM MASTER: Jailton dos santos vieira filho
