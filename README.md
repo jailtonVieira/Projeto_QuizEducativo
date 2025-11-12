@@ -45,12 +45,9 @@ Estamos usando varis estrututa para auxiliar no processo sendo:
 - try & except.
 
 ## EXPLICAÇÃO DO CODIGO
-A primrira funçãao leva o usuario ao menu onde ele tem tres opções sendo:
-- iniciar quiz
-- mostar pontos
-- sair
+<img width="999" height="900" alt="Image" src="https://github.com/user-attachments/assets/13b50964-1b25-47a4-aa04-b26367ecc8c8" />
 
-Depois dessa escolha o menu leva o usuario para a proxima etapa, caso o usuario escolha a primreira opção ele sera levado ao quiz, onde mostra as perguntas e alternativas de forma aleatoria. e depois conferido a resposta que o usuario devolver e somando a sua pontuação
+Aqui nos temos as variaveis que estão sendo usadas junto do dicionario com as perguntas, alternativas e a respostas
 
 ## papeis do projrto:
 SCRUM MASTER: Jailton dos santos vieira filho
