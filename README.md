@@ -47,7 +47,13 @@ Estamos usando varis estrututa para auxiliar no processo sendo:
 ## EXPLICAÇÃO DO CODIGO
 <img width="999" height="900" alt="Image" src="https://github.com/user-attachments/assets/13b50964-1b25-47a4-aa04-b26367ecc8c8" />
 
-Aqui nos temos as variaveis que estão sendo usadas junto do dicionario com as perguntas, alternativas e a respostas
+Aqui nos temos as variaveis que estão sendo usadas junto do dicionario com as perguntas, alternativas e a respostas.
 
-## papeis do projrto:
+<img width="752" height="424" alt="Image" src="https://github.com/user-attachments/assets/5e3d6926-1d6f-44b4-a27d-b6249acdf896" />
+-b26367ecc8c8" />
+
+Aqui é o menu principal com as opções.
+
+
+## papeis do projeto:
 SCRUM MASTER: Jailton dos santos vieira filho
