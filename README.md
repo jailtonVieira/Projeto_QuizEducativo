@@ -61,8 +61,9 @@ usei IF ELSE ,  FOR, e a biblioteca RAMDON ,para embaralhar as perguntas e mostr
 
 ## UML & DIAGRAMA
 
+<img width="767" height="772" alt="Image" src="https://github.com/user-attachments/assets/3e36779c-b18c-46b0-a8de-381242e91ad6" />
 
-<img width="752" height="424" alt="Image" src="https://github.com/user-attachments/assets/5e3d6926-1d6f-44b4-a27d-b6249acdf896" />
+<img width="783" height="470" alt="Image" src="https://github.com/user-attachments/assets/5a6f4c67-d3d5-489d-93c1-3badbfde74d2" />
 
 
 ## papeis do projeto:
