@@ -19,6 +19,8 @@ O quiz ele usa perguntas de base o ensino medio para testar o seu conhecimento e
 | Review Sprint  | [Clique aqui](./docs/ReviewSprint.md) |
 | Como utilizar o codigo | [Clique aqui](./docs/usodoquiz.txt) |
 
+# LINK PARA IR AO TRELLO:
+https://trello.com/invite/b/690d003cc645d6ce04f852b4/ATTI30e2be43cef817f14c39d955d467f6c2DBC69F24/trabalho-quizeducacional
 
 # papeis do projeto:
 SCRUM MASTER/ DEV: Jailton dos santos vieira filho
