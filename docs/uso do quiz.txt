@@ -1,0 +1,4 @@
+Como fazer uso do quis:
+
+Ele é fácil de usar e de entender. Depois de fazer a instalação dos arquivos , você faz o cadastro e já pode começar a usar as funções dele. Como escolher qual quiz você deseja fazer, podendo escolher entre ciência humanas com 
+português ou ciência da natureza com matemática e logo depois de responder as 10 perguntas e ele irar mostrar a pontuação mais recente e a total e a quantidade de quizes jogados, que pode ser visto novamente na opção perfil. O ranking ainda não foi implementado e so estar nas opções mas sem funcionalmente ate o momento, e temos a opção encerrar para sair do quiz. 
