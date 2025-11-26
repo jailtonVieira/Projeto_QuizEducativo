@@ -12,7 +12,7 @@ Esse é um projeto de Quiz. Aqui você testar o seu conhecimento em três niveis
 | PerguntasQuiz | [Clique aqui](./src/Perguntas.py) | 
 | UML | [Clique aqui](./docs/UML.png) |
 | Trello| [Clique aqui](./docs/Trello.png) |
-| Diadrama de classe | [Clique aqui](./docs/Capturadetela225-11-25220447.png) |
+| Diadrama de classe | [Clique aqui](./docs/DiagramaClasses.png) |
 | Lista de RF e RNF | [Clique aqui](./docs/RFeRNF.txt) |
 | Review Sprint  | [Clique aqui](./docs/ReviewSprint.md) |
 | Como utilizar o codigo | [Clique aqui](./docs/usodoquiz.txt) |
