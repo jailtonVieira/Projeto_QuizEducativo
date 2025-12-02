@@ -1,149 +1,129 @@
 import random
-from Perguntas import listPerguntasCM , listPerguntasCP
-from Pessoa import jogador
+from Perguntas import listPerguntasCM, listPerguntasCP
+from Pessoa import Jogador
 
-Pessoa = None
-pontuaçãoAtual = 0
-pontuaçãoCM = 0
-pontuaçãoCP = 0
-quantQuizesCM = 0
-quantQuizesCP = 0
-reniciar = 0
-respostaCerto = "Resposta correta!"
-respostaIncorreta = "Resposta incorreta!"
-encerrar = "Agradecemos por usar o nosso sistema!"
-espaçamento = "---------------------------------------------"
 
+jogadorAtual = None
 
 def Cadastro():
-    global Pessoa
-    print(espaçamento)
-    print(f"Essa é a tela de cadastro do jogador!")
-    nome = str(input("Qual o seu nome:"))
-    Pessoa = jogador(nome)
-    Pessoa.apresentar()
-    print(f"{espaçamento}")
+    global jogadorAtual
+    print("---------------------------------------------")
+    print("Tela de criação do jogador")
+    nome = input("Digite seu nome: ")
+    jogadorAtual = Jogador(nome)
+    jogadorAtual.apresentar()
     Menu()
-
 
 
 def Menu():
-        try:
-            print("BEM VINDO AO QUIZ EDUCACIONAL")
-            voltaMenu = int(input(f"{espaçamento}\n1 - Iniciar Quiz\n2 - Perfil\n3 - Ranking\n4 - Sair\nDigite aqui: "))
-            if voltaMenu == 1:
-                Escolha()
+    print("---------------------------------------------")
+    print("BEM VINDO AO QUIZ EDUCACIONAL")
 
-            elif voltaMenu == 2:
-               Perfil()
+    try:
+        print("---------------------------------------------")
+        opcMenu = int(input("1 - Iniciar Quiz\n2 - Perfil\n3 - Novo jogador\n4 - Sair\nDigite aqui: "))
 
-            elif voltaMenu == 3 :
-                print("O ranking não estar dispomivel ainda.")
-                Menu()
-
-            elif voltaMenu == 4:
-                print(encerrar)
-
-        except ValueError:
-            print(f"Você digitou uma letra,preste mais atenção!")
+        if opcMenu == 1:
+            Escolha()
+        elif opcMenu == 2:
+            Perfil()
+        elif opcMenu == 3:
+            Cadastro()
+        elif opcMenu == 4:
+            print("Agradecemos por usar o nosso sistema!")
+            return
+        else:
+            print("Opção inválida!")
             Menu()
 
-        print(espaçamento)
+    except ValueError:
+        print("Você digitou uma letra! Tente novamente.")
+        Menu()
+
 
 def Escolha():
-    voltaQ = int(input(f"Antes de iniciar o quiz, você deve escolher qual quer fazer:\n1 - Quiz sobre Ciências naturais e Matematica\n2 - Quiz sobre Ciêcias socias e Português\nDigite aqui: "))
-    if voltaQ == 1:
-        QuizCM()
-    elif voltaQ == 2:
-        QuizCP()
+    try:
+        print("---------------------------------------------")
+        opcQuiz = int(input("Antes de iniciar o quiz, escolha qual deseja fazer:\n1 - Ciências Naturais e Matemática\n2 - Ciências Sociais e Português\nDigite aqui: "))
+        
+        if opcQuiz == 1:
+            QuizCM()
+        elif opcQuiz == 2:
+            QuizCP()
+        else:
+            print("Opção inválida!")
+            Escolha()
+
+    except ValueError:
+        print("Digite apenas números!")
+        Escolha()
 
 
 def Perfil():
-    global pontuaçãoAtual , pontuaçãoCM , pontuaçãoCP , pontoTotal
-    global quizesTOtal , quantQuizesCM , quantQuizesCP
-    global Pessoa
-
-    quizesTOtal = quantQuizesCM + quantQuizesCP
-    pontoTotal = pontuaçãoCP + pontuaçãoCM
-
-    print(f"{espaçamento}\nperfil\nJOGADOR:")
-    Pessoa.exibir()
-    print(espaçamento)
-    print(f"{pontuaçãoAtual} - Pontos do jogo mas recente")
-    print(f"{pontuaçãoCM} - pontos perguntas Ciência naturais e Matematica")
-    print(f"{pontuaçãoCP} - Pontos perguntas Ciência sociais e Português")
-    print(f"{pontoTotal} - total de pontos")
-    print(f"{quantQuizesCM} - Quizes Ciência naturais e Matematica")
-    print(f"{quantQuizesCP} - Quizes Ciência sociais e Português")
-    print(f"{quizesTOtal} - Total de quizes jogados")
-    print(espaçamento)
+    print("---------------------------------------------")
+    print("PERFIL DO JOGADOR")
+    jogadorAtual.exibir()
     Menu()
 
+
 def QuizCM():
-    global pontuaçãoAtual
-    global pontuaçãoCM
-    global quantQuizesCM
-    pontuaçãoAtual = 0
-    quantQuizesCM += 1
+    jogadorAtual.pontuacaoAtual = 0
+    jogadorAtual.quantQuizesCM += 1
+
     random.shuffle(listPerguntasCM)
 
-    for i in listPerguntasCM[:10]:
-        print(espaçamento)
-        print(i["pergunta"])
-        for j in i["alternativas"]:
-            print(j)
+    for p in listPerguntasCM[:10]:
+        print("---------------------------------------------")
+        print(p["pergunta"])
+        for alt in p["alternativas"]:
+            print(alt)
 
-        resposta = int(input("qual a sua resposta: "))
+        resposta = int(input("Qual a sua resposta: "))
+        if resposta == p["correta"]:
+            jogadorAtual.pontuacaoAtual += 1
+            jogadorAtual.pontuacaoCM += 1
+            print("Resposta correta!")
+        else:
+            print("Resposta incorreta!")
 
-        if resposta == i["correta"]:
-            pontuaçãoAtual += 1
-            pontuaçãoCM += 1
-            print(respostaCerto)
-        else :
-            print(respostaIncorreta)
-
-
-    print(espaçamento)
-    print(f"você terminou o quiz\nPontuação final {pontuaçãoAtual}/10\nObrigado por jogar o nosso jogo")
-    print(f"1 - para voltar ao menu\n2 - para encerrar sessão")
-    voltaFinal = int(input("Digite aqui: "))
-    if voltaFinal == 1:
-        Menu()
-    else :
-        print(encerrar)
+    print("---------------------------------------------")
+    print(f"Você terminou o quiz!\nPontuação final: {jogadorAtual.pontuacaoAtual}/10")
+    FinalQuiz()
 
 def QuizCP():
-    global pontuaçãoAtual
-    global pontuaçãoCP
-    global quantQuizesCP
-    pontuaçãoAtual = 0
-    quantQuizesCP += 1
+    jogadorAtual.pontuacaoAtual = 0
+    jogadorAtual.quantQuizesCP += 1
+
     random.shuffle(listPerguntasCP)
 
-    for i in listPerguntasCP[:10]:
+    for p in listPerguntasCP[:10]:
+        print("---------------------------------------------")
+        print(p["pergunta"])
+        for alt in p["alternativas"]:
+            print(alt)
 
-        print(espaçamento)
-        print(i["pergunta"])
-        for j in i["alternativas"]:
-            print(j)
+        resposta = int(input("Qual a sua resposta: "))
+        if resposta == p["correta"]:
+            jogadorAtual.pontuacaoAtual += 1
+            jogadorAtual.pontuacaoCP += 1
+            print("Resposta correta!")
+        else:
+            print("Resposta incorreta!")
 
-        resposta = int(input("qual a sua resposta: "))
-
-        if resposta == i["correta"]:
-            pontuaçãoAtual += 1
-            pontuaçãoCP += 1
-            print(respostaCerto)
-        else :
-            print(respostaIncorreta)
+    print("---------------------------------------------")
+    print(f"Você terminou o quiz!\nPontuação final: {jogadorAtual.pontuacaoAtual}/10")
+    FinalQuiz()
 
 
-    print(espaçamento)
-    print(f"você terminou o quiz\nPontuação final {pontuaçãoAtual}/10\nObrigado por jogar o nosso jogo")
-    print(f"1 - para voltar ao menu\n2 - para encerrar sessão")
-    voltaFinal = int(input("Digite aqui: "))
-    if voltaFinal == 1:
-        Menu()
-    else :
-        print(encerrar)
+def FinalQuiz():
+    try:
+        fim = int(input("1 - Voltar ao menu\n2 - Encerrar sessão\nDigite aqui: "))
+        if fim == 1:
+            Menu()
+        else:
+            print("Agradecemos por usar o nosso sistema!")
+    except ValueError:
+        print("Opção inválida!")
+        FinalQuiz()
 
 Cadastro()
