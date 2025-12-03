@@ -18,7 +18,7 @@ Usamos para criar a classe chamada jogador
 
 # TABELA
 
-| opcçoes | links |
+| opçoes | links |
 |---------|-------|
 | codigo | [Clique aqui](./src/main2.py) |
 | classe Jogador | [Clique aqui](./src/Pessoa.py) | 
@@ -30,8 +30,17 @@ Usamos para criar a classe chamada jogador
 | Diagrama de Atividade | [Clique aqui](./docs/DiagaramaAtividade.png) |
 | Lista de requisitos | [Clique aqui](./docs/RFeRNF.pptx) |
 
+# COMO INSTALAR E EXECUTAR
+Deve acessar os links acima e clicar nas opções do codigo do JOGADOR , CODIGO e PERGUNTASQUIZ. Depois de entrar em um link você irar no canto superior direito e clicarar em dowload, depois de repita nisso nas outras duas e conclua o dowload. 
+
+Tenha uma IDE de sua escolha uma exemplo de IDE é o VISUAL STUDIO CODE, depois de escolher a sua IDE, crie uma pasta com os files que você abaixou e abra essa pasta( folder ) no VISUAL STUDIO CODE e clique F6 para começar o codigo. 
+
+
+
 # LINK PARA IR AO TRELLO:
 https://trello.com/invite/b/690d003cc645d6ce04f852b4/ATTI30e2be43cef817f14c39d955d467f6c2DBC69F24/trabalho-quizeducacional
 
+
 # papeis do projeto:
 SCRUM MASTER/ DEV: Jailton dos santos vieira filho
+
