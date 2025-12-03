@@ -12,11 +12,11 @@ O quiz ele usa perguntas de base o ensino medio para testar o seu conhecimento e
 | codigo | [Clique aqui](./src/main2.py) |
 | classe Jogador | [Clique aqui](./src/Pessoa.py) | 
 | PerguntasQuiz | [Clique aqui](./src/Perguntas.py) | 
-| UML | |
+| UML | Links |
 | Diagrama de Casos de uso | [Clique aqui](./docs/DiagramaCasos.png) |
 | Diadrama de Classes | [Clique aqui](./docs/DiagramaClasses.png) |
 | Diagrama de Sequência | [Clique aqui](./docs/DiagramaSequencia.png) |
-| Diagrama de Atividade | [Clique aqui](./docs/DiagramaAtividade.png) |
+| Diagrama de Atividade | [Clique aqui](./docs/DiagaramaAtividade.png) |
 | Lista de requisitos | [Clique aqui](./docs/RFeRNF.pptx) |
 
 # LINK PARA IR AO TRELLO:
