@@ -4,7 +4,7 @@
 Esse é um projeto avaliativo da faculdade UNUNASSAU das materias de engenharia de software e estrutura de dados. Eu e minha equipe projetamos e criamos um quiz educacional para testar as nossas habilidades de programadors.
 
 # PROPÓSITO
-O propósito do projeto é ser um sistema que tenhas as fucionalidades para ser usado como um quiz. 
+O propósito do projeto é ser um sistema que tenhas as fucionalidades para ser usado como um quiz, e praticar as nossas habilidades e conhecimentos nesse desafio. 
 
 # TECNOLOGIA UTILIZADAS
 ### Python
@@ -29,9 +29,10 @@ Usamos para criar a classe chamada jogador
 | Diagrama de Sequência | [Clique aqui](./docs/DiagramaSequencia.png) |
 | Diagrama de Atividade | [Clique aqui](./docs/DiagaramaAtividade.png) |
 | Lista de requisitos | [Clique aqui](./docs/RFeRNF.txt) |
+| Review | 
 
 # COMO INSTALAR E EXECUTAR
-Deve acessar os links acima e clicar nas opções do codigo do JOGADOR , CODIGO e PERGUNTASQUIZ. Depois de entrar em um link você irar no canto superior direito e clicarar em dowload, depois de repita nisso nas outras duas e conclua o dowload. 
+Deve acessar os links acima e clicar nas opções do codigo do JOGADOR , CODIGO e PERGUNTASQUIZ. Depois de entrar em um link você irar no canto superior direito e clicarar em dowload, depois repita isso nos outros links e conclua o dowload de todos. 
 
 Tenha uma IDE de sua escolha uma exemplo de IDE é o VISUAL STUDIO CODE, depois de escolher a sua IDE, crie uma pasta com os files que você abaixou e abra essa pasta( folder ) no VISUAL STUDIO CODE e clique F6 para começar o codigo. 
 
