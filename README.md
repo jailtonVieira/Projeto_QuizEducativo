@@ -3,7 +3,18 @@
 ## Descrição breve
 Esse é um projeto avaliativo da faculdade UNUNASSAU das materias de engenharia de software e estrutura de dados. Eu e minha equipe projetamos e criamos um quiz educacional para testar as nossas habilidades de programadors.
 
-O quiz ele usa perguntas de base o ensino medio para testar o seu conhecimento e logo apos você pode descobrir a sua pontuação e a quantidade de quizes jogados.o projeto estar em desenvolvimento então ainda estar imcompleto, falta partes 
+# PROPÓSITO
+O propósito do projeto é ser um sistema que tenhas as fucionalidades para ser usado como um quiz. 
+
+# TECNOLOGIA UTILIZADAS
+### Python
+Foi utilizado para fazer todo o backend do sistema.
+### Lista e dicionário
+Foi utilizado para armzenar as perguntas , alternativas e a respostas correta.
+### Funções(def)
+Foram utilizadas para criar os menus no sistema.
+### Classes
+Usamos para criar a classe chamada jogador 
 
 # TABELA
 
