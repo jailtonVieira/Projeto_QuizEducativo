@@ -12,12 +12,12 @@ O quiz ele usa perguntas de base o ensino medio para testar o seu conhecimento e
 | codigo | [Clique aqui](./src/main2.py) |
 | classe Jogador | [Clique aqui](./src/Pessoa.py) | 
 | PerguntasQuiz | [Clique aqui](./src/Perguntas.py) | 
-| UML | [Clique aqui](./docs/UML.png) |
-| Trello| [Clique aqui](./docs/Trello.png) |
-| Diadrama de classe | [Clique aqui](./docs/DiagramaClasses.png) |
-| Lista de RF e RNF | [Clique aqui](./docs/RFeRNF.txt) |
-| Review Sprint  | [Clique aqui](./docs/ReviewSprint.md) |
-| Como utilizar o codigo | [Clique aqui](./docs/usodoquiz.txt) |
+| UML | |
+| Diagrama de Casos de uso | [Clique aqui](./docs/DiagramaCasos.png) |
+| Diadrama de Classes | [Clique aqui](./docs/DiagramaClasses.png) |
+| Diagrama de Sequência | [Clique aqui](./docs/DiagramaSequencia.png) |
+| Diagrama de Atividade | [Clique aqui](./docs/DiagramaAtividade.png) |
+| Lista de requisitos | [Clique aqui](./docs/RFeRNF.pptx) |
 
 # LINK PARA IR AO TRELLO:
 https://trello.com/invite/b/690d003cc645d6ce04f852b4/ATTI30e2be43cef817f14c39d955d467f6c2DBC69F24/trabalho-quizeducacional
