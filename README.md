@@ -30,6 +30,7 @@ Usamos para criar a classe chamada jogador
 | Diagrama de Atividade | [Clique aqui](./docs/DiagaramaAtividade.png) |
 | Lista de requisitos | [Clique aqui](./docs/RFeRNF.txt) |
 | Review | [Clique aqui](./docs/ReviewSprint.md) |
+| Relatório | [Clique aqui](./docs/Relatório.mb) |
 
 # COMO INSTALAR E EXECUTAR
 Deve acessar os links acima e clicar nas opções do codigo do JOGADOR , CODIGO e PERGUNTASQUIZ. Depois de entrar em um link você irar no canto superior direito e clicarar em dowload, depois repita isso nos outros links e conclua o dowload de todos. 
