@@ -45,4 +45,8 @@ https://trello.com/invite/b/690d003cc645d6ce04f852b4/ATTI30e2be43cef817f14c39d95
 
 # papeis do projeto:
 SCRUM MASTER/ DEV: Jailton dos santos vieira filho
+DEV: Darlan Lima Pereira da Silva
+DEV: Luiz Augusto Correia Freire 
+DEV: Pedro Henrique Nogueira de Araújo
+DEV: luis felipe silva oliveira
 
